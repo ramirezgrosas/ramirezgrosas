@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="150" viewBox="0 0 280 150" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="bgh1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="0.6" stop-color="#1E3A8A"/><stop offset="1" stop-color="#0B1026"/></linearGradient>
+<linearGradient id="ach1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+<linearGradient id="shh1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+<pattern id="grh1" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#22D3EE" stroke-opacity="0.07"/></pattern>
+<clipPath id="cph1"><rect width="280" height="150" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#cph1)">
+<rect width="280" height="150" fill="url(#bgh1)"/>
+<rect width="280" height="150" fill="url(#grh1)"/>
+<rect x="-280" width="280" height="150" fill="url(#shh1)"><animate attributeName="x" from="-280" to="280" dur="7s" repeatCount="indefinite"/></rect>
+<text x="140" y="70" text-anchor="middle" font-size="44" font-weight="800" fill="#22D3EE">98.36%</text>
+<rect x="110" y="84" width="60" height="3" rx="1.5" fill="url(#ach1)"/>
+<text x="140" y="110" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">Test accuracy · CNN on MNIST</text>
+<text x="140" y="130" text-anchor="middle" font-size="12" fill="#8B949E">TensorFlow 2 · Keras</text>
+</g>
+<rect x="0.5" y="0.5" width="279" height="149" rx="16" fill="none" stroke="#22D3EE" stroke-opacity="0.28"/>
+</svg>

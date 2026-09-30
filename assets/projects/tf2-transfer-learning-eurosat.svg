@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="bgp3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="0.6" stop-color="#1E3A8A"/><stop offset="1" stop-color="#0B1026"/></linearGradient>
+<linearGradient id="acp3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+<linearGradient id="shp3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+<pattern id="grp3" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#22D3EE" stroke-opacity="0.07"/></pattern>
+<clipPath id="cpp3"><rect width="800" height="300" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#cpp3)">
+<rect width="800" height="300" fill="url(#bgp3)"/>
+<rect width="800" height="300" fill="url(#grp3)"/>
+<rect x="-800" width="800" height="300" fill="url(#shp3)"><animate attributeName="x" from="-800" to="800" dur="7s" repeatCount="indefinite"/></rect>
+<rect width="6" height="300" fill="url(#ac3)"/>
+<text x="40" y="58" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="14" fill="#8B949E">ramirezgrosas / tf2-transfer-learning-eurosat</text>
+<text x="40" y="104" font-size="30" font-weight="700" fill="#E6EDF3">EuroSAT Satellite CNN</text>
+<text x="40" y="140" font-size="16" fill="#8B949E">Checkpointing and reloading the best weights</text>
+<text x="40" y="236" font-size="52" font-weight="800" fill="#22D3EE">71.6%</text>
+<text x="40" y="262" font-size="14" fill="#8B949E">test accuracy at best epoch · +2.8 pts vs last epoch</text><rect x="648" y="150" width="112" height="26" rx="13" fill="#0B1026" fill-opacity="0.7" stroke="#8B5CF6" stroke-opacity="0.7"/><text x="704" y="168" text-anchor="middle" font-size="13" fill="#E6EDF3">Checkpoints</text><rect x="578" y="150" width="62" height="26" rx="13" fill="#0B1026" fill-opacity="0.7" stroke="#8B5CF6" stroke-opacity="0.7"/><text x="609" y="168" text-anchor="middle" font-size="13" fill="#E6EDF3">Keras</text><rect x="466" y="150" width="104" height="26" rx="13" fill="#0B1026" fill-opacity="0.7" stroke="#8B5CF6" stroke-opacity="0.7"/><text x="518" y="168" text-anchor="middle" font-size="13" fill="#E6EDF3">TensorFlow</text>
+</g>
+<rect x="0.5" y="0.5" width="799" height="299" rx="16" fill="none" stroke="#22D3EE" stroke-opacity="0.28"/>
+</svg>
